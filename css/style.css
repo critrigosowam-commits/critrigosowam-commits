@@ -1,0 +1,158 @@
+
+/* Estilos generales */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f5f9;
+    color: #222;
+    line-height: 1.6;
+}
+
+/* Encabezado */
+header {
+    background-color: #17365d;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    animation: aparecer 1s ease;
+}
+
+/* Menú de navegación */
+nav {
+    background-color: #24558a;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    transition: color 0.3s, transform 0.3s;
+    display: inline-block;
+}
+
+nav a:hover {
+    color: #ffd166;
+    transform: scale(1.1);
+}
+
+/* Contenido principal */
+main {
+    width: 90%;
+    max-width: 1100px;
+    margin: 20px auto;
+}
+
+section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #17365d;
+}
+
+/* Cajas flotantes */
+.caja {
+    float: left;
+    width: 48%;
+    margin: 1%;
+    padding: 20px;
+    background-color: #e1ecf7;
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+
+.caja:hover {
+    transform: translateY(-5px);
+}
+
+.proyecto {
+    background-color: #dcefe8;
+}
+
+/* Limpiar los elementos flotantes */
+.limpiar {
+    clear: both;
+}
+
+/* Multimedia */
+video,
+audio {
+    max-width: 100%;
+    margin-bottom: 15px;
+}
+
+.video {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    aspect-ratio: 16 / 9;
+}
+
+.video iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+/* Pie de página */
+footer {
+    background-color: #17365d;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Animación */
+@keyframes aparecer {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Pantallas de escritorio: 768 px o más */
+@media screen and (min-width: 768px) {
+    main {
+        width: 85%;
+    }
+
+    .caja {
+        width: 48%;
+    }
+}
+
+/* Pantallas móviles: menos de 768 px */
+@media screen and (max-width: 767px) {
+    main {
+        width: 95%;
+    }
+
+    .caja {
+        float: none;
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    nav a {
+        display: block;
+        margin: 8px;
+    }
+
+    header {
+        padding: 20px 10px;
+    }
+}

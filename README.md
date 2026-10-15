@@ -1,16 +1,19 @@
-## Hi there 👋
 
-<!--
-**critrigosowam-commits/critrigosowam-commits** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# Mi Portafolio Web
 
-Here are some ideas to get you started:
+## Descripción
+Página web personal desarrollada como práctica
+del curso de Diseño Web.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Tecnologías utilizadas
+- HTML5
+- CSS3
+- Animaciones CSS
+- Diseño responsivo
+- GitHub Pages
+
+## Autor
+Estudiante de Ingeniería de Sistemas.
+
+## Sitio publicado
+https://TUUSUARIO.github.io/disenoweb-parcial-tusuapellido/
