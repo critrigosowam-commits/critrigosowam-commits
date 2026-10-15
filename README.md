@@ -16,4 +16,4 @@ del curso de Diseño Web.
 Estudiante de Ingeniería de Sistemas.
 
 ## Sitio publicado
-https://TUUSUARIO.github.io/critrigosowam-commits/
+https://critrigosowam-commits.github.io/critrigosowam-commits/
